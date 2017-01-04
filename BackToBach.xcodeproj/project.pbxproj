@@ -12,6 +12,8 @@
 		FEEB93C71E1C833E0075C9EE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FEEB93C51E1C833E0075C9EE /* Main.storyboard */; };
 		FEEB93C91E1C833E0075C9EE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FEEB93C81E1C833E0075C9EE /* Assets.xcassets */; };
 		FEEB93CC1E1C833E0075C9EE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FEEB93CA1E1C833E0075C9EE /* LaunchScreen.storyboard */; };
+		FEEB93D81E1C85560075C9EE /* bach.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FEEB93D71E1C85560075C9EE /* bach.mp3 */; };
+		FEEB93DA1E1C85790075C9EE /* bach.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FEEB93D91E1C85790075C9EE /* bach.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		FEEB93C81E1C833E0075C9EE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FEEB93CB1E1C833E0075C9EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FEEB93CD1E1C833E0075C9EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FEEB93D71E1C85560075C9EE /* bach.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = bach.mp3; sourceTree = "<group>"; };
+		FEEB93D91E1C85790075C9EE /* bach.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bach.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +61,8 @@
 				FEEB93C11E1C833E0075C9EE /* AppDelegate.swift */,
 				FEEB93C31E1C833E0075C9EE /* ViewController.swift */,
 				FEEB93C51E1C833E0075C9EE /* Main.storyboard */,
+				FEEB93D91E1C85790075C9EE /* bach.jpg */,
+				FEEB93D71E1C85560075C9EE /* bach.mp3 */,
 				FEEB93C81E1C833E0075C9EE /* Assets.xcassets */,
 				FEEB93CA1E1C833E0075C9EE /* LaunchScreen.storyboard */,
 				FEEB93CD1E1C833E0075C9EE /* Info.plist */,
@@ -125,6 +131,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				FEEB93CC1E1C833E0075C9EE /* LaunchScreen.storyboard in Resources */,
+				FEEB93DA1E1C85790075C9EE /* bach.jpg in Resources */,
+				FEEB93D81E1C85560075C9EE /* bach.mp3 in Resources */,
 				FEEB93C91E1C833E0075C9EE /* Assets.xcassets in Resources */,
 				FEEB93C71E1C833E0075C9EE /* Main.storyboard in Resources */,
 			);
