@@ -50,11 +50,24 @@ class ViewController: UIViewController {
         
         player.pause()
         
+        timer.invalidate()
     }
     
     @IBAction func stop(_ sender: Any) {
         
-        player.stop()
+        scrubber.value = 0
+        
+        timer.invalidate()
+        
+        player.pause()
+        
+        do {
+            
+            try player = AVAudioPlayer(contentsOf: URL(fileURLWithPath: audioPath!))
+            
+        } catch {
+            
+        }
         
     }
     
